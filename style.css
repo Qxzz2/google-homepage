@@ -1,0 +1,19 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 150px;
+}
+
+#searchbar {
+    margin-top: 25px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#searchbar input {
+    height: 20px;
+    width: 500px;
+}
