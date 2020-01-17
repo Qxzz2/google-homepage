@@ -1,19 +1,86 @@
+html {
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+}
+
 #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
     margin-top: 150px;
+
+    height: 92px;
+    left: calc(50% - 272px/2);
+    position: absolute;
+    width: 272px;
 }
 
 #searchbar {
-    margin-top: 25px;
-    position: absolute;
-    width: 100%;
+    margin-top: 265px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
     text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    display: block;
+    position: absolute;
+    left: calc(38.5% - 272px/2);
+    
+}
+
+#searchbar:hover {
+    box-shadow: 1px 1px 1px 1px #dfe1e5;
 }
 
 #searchbar input {
+    margin-left: 5px;
+    margin-right: 5px;
     height: 20px;
-    width: 500px;
+    width: 480px;
+    border: transparent;
+    outline: none;
+}
+
+
+#leftnavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent
+}
+
+#rightnavbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent
+}
+
+#leftnavbar li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#signinbutton {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 122, 245);
+    padding: 8px 8px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 6px;
+    margin-left: 8px;
 }
